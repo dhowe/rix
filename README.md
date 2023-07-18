@@ -1,2 +1,2 @@
 # rix
-Development on Rix writer script
+Initial development on Rix scripting language for writers

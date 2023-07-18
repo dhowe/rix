@@ -7,7 +7,9 @@ An example:
 
 ```js
 let a = `A basic JavaScript string`
+console.log(a) // -> "A basic JavaScript string"
 ```
 ```js
 let a = rix`A [rix | special | expanded]  JavaScript string`
+console.log(a) // -> "A special JavaScript string"
 ```

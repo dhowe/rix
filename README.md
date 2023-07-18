@@ -17,12 +17,12 @@ console.log(a) // -> "A RiX JavaScript string" OR
 ```
 Notice that the 3rd output (one option is chosen at random each time the string is printed) is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:
 
+```js
 let a = rix`A [RiX | special | expanded].articlize()  JavaScript string`
 console.log(a) // -> "A RiX JavaScript string" OR
                //    "A special JavaScript string" OR
                //    "An expanded JavaScript string"
 ```
-
 ### Explanation
 
 The script above uses a **choice** element, in brackets, \`[RiX | special | expanded]\`. Each time the script is run, one of the options ("RiX" or "special" or "expanded") is selected.

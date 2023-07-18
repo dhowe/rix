@@ -11,7 +11,7 @@ console.log(a) // -> "A basic JavaScript string"
 ```
 ```js
 let a = rix`A [Rix | special | expanded]  JavaScript string`
-console.log(a) // -> "A rix JavaScript string" OR
-                     "A special JavaScript string" OR
-                     "A Rix JavaScript string"
+console.log(a) // -> "A Rix JavaScript string" OR
+               //    "A special JavaScript string" OR
+               //    "A expanded JavaScript string"
 ```

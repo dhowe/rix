@@ -25,5 +25,5 @@ console.log(a) // -> "A RiX JavaScript string" OR
 ```
 ### Explanation
 
-The script above uses a **choice** element, in brackets: `[ RiX | special | expanded]`. Each time the script is run, one of the options -- "RiX" or "special" or "expanded" -- is selected.
-The script also uses the *articlize* **transform**. Transforms are basically functions that modify the text they are attached to. In this case the text in brackets -- either "RiX" or "special" or "expanded" -- gets the appropriate article (a or an) via the Rix inflector.`
+The script above uses a *choice* element, in brackets: `[ RiX | special | expanded]`. Each time the script is run, one of the options -- "RiX" or "special" or "expanded" -- is selected.
+The script also uses the *articlize()* *transform*. Transforms are basically functions that modify the text they are attached to. In this case the text in brackets --  "RiX" or "special" or "expanded" -- gets the appropriate article (a or an) via the Rix inflector.`

@@ -10,12 +10,15 @@ let a = `A basic JavaScript string`
 console.log(a) // -> "A basic JavaScript string"
 ```
 ```js
-let a = rix`A [RiX | special | expanded]  JavaScript string`
-console.log(a) // -> "A RiX JavaScript string" OR
-               //    "A special JavaScript string" OR
-               //    "A expanded JavaScript string"
+let a = rix`A [special | lovely | Rix]  JavaScript string`
+console.log(a) // -> "A special JavaScript string" OR
+               //    "A lovely JavaScript string" OR
+               //    "A Rix JavaScript string"
 ```
-Notice that the 3rd output (one option is chosen at random each time the string is printed) is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:
+
+TODO:
+
+Notice that the 3rd output ( is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:
 
 ```js
 let a = rix`A [RiX | special | expanded].articlize()  JavaScript string`

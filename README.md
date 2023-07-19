@@ -16,6 +16,8 @@ console.log(a) // -> "A special JavaScript string" OR
                //    "A Rix JavaScript string"
 ```
 
+-----------
+
 TODO:
 
 Notice that the 3rd output ( is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:

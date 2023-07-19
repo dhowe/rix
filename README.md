@@ -20,7 +20,7 @@ console.log(a) // -> "A special JavaScript string" OR
 
 TODO:
 
-Notice that the 3rd output ( is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:
+Notice that the 3rd output above is not exactly grammatical. Rather than "A expanded..." it should read "_An_ expanded...". We can solve this using RiX _transforms_:
 
 ```js
 let a = rix`A [RiX | special | expanded].articlize()  JavaScript string`

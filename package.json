@@ -1,0 +1,30 @@
+{
+  "name": "rix",
+  "version": "1.0.0",
+  "description": "Rix scripting",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhowe/rix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhowe/rix/issues"
+  },
+  "homepage": "https://github.com/dhowe/rix#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "esm": "^3.2.25",
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "chevrotain": "^10.3.0",
+    "html-entities": "^2.3.3",
+    "mingo": "^6.1.2"
+  }
+}
